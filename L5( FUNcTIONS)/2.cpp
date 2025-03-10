@@ -1,7 +1,5 @@
 #include <iostream>
 using namespace std;
-// sum of two numbers
-
 int sum(int a, int b)
 {
     int c = a + b;
@@ -9,6 +7,6 @@ int sum(int a, int b)
 }
 int main()
 {
- cout << sum(10, 20);
+    cout << sum(10, 45) << endl;
     return 0;
 }
