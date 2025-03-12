@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std ;
-
+//just for basic contribution 
 int BinNum( int BinNum){
     int ans = 0;
     int pow =1;
