@@ -13,7 +13,7 @@ int BinNum( int BinNum){
     }
     return ans;
 }
-
+//hfuh ds
 int main(){
     int n;
     cout<<" enter ur binary number: ";
