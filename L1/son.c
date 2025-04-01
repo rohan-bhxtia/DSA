@@ -11,4 +11,4 @@ int main()
     }
     printf("Sum of numbers from 1 to %d is: %d \n", x, sum);
     return 0;
-}
+}//hdfeurhfejo 
