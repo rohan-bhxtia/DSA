@@ -12,7 +12,7 @@ void reverse_arr(int arr[],int size){
         start++;
         end--;
     }
-}
+} 
 
     int main(){
         int arr[]= {2,5,4,6,4,3,7,4};
