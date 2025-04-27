@@ -1,11 +1,11 @@
 //WAF to ptint all the unique values in an array 
+//WAF to print intersection of 2 arrays
 
 
 
 #include <iostream>
-using namespace std;
-
-// Function to print all unique elements
+using namespace std;                                                // both these ques can be solved easily using hash tables 
+// Function to print all unique elements                            // but u can try if u want
 void unique(int arr[], int sz) {
     for (int i = 0; i < sz; i++) {
         int count = 0; // count how many times arr[i] appears
