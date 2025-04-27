@@ -1,5 +1,5 @@
-//given a non empty array of integers (nums), every element appears twice 
-
+//Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+//You must implement a solution with a linear runtime complexity and use only constant extra space.
 #include <iostream>
 using namespace std;
 
@@ -11,8 +11,8 @@ void unique(int nums[], int sz){
                 isUnique = false;
                 break;
 
-            }
-        }
+            }                                             // ques asked for implement a soln with a linear runtime complexity 
+        }                                                 // and use only constant extra space i.e dont use nested loops 
             if(isUnique){        
                 cout<<nums[i]<<endl;
         
