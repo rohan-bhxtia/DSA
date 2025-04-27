@@ -11,7 +11,11 @@ int reverse_arr(int arr[],int size){
         swap(arr[start],arr[end]);
         start++;
         end--;
+        
+        
     }
+    
+
     }
     
    
