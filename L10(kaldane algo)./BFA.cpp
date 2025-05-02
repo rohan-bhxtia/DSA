@@ -13,7 +13,7 @@ int main(){
         }
 
     }
-    cout<<currentSum<<endl;
+    cout<< currentSum<<endl;
     return 0;
     
 
