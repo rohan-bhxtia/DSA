@@ -6,11 +6,10 @@ using namespace std;
 void unique(int nums[], int sz){
     for(int i=0;i<sz;i++){
          bool isUnique =true;
-        for(int j=0;j<sz;j++){
+        for(int j=0;j<sz;j++){                  //bhan di ln 
             if(i != j && nums[i]==nums[j]){
                 isUnique = false;
                 break;
-
             }                                             // ques asked for implement a soln with a linear runtime complexity 
         }                                                 // and use only constant extra space i.e dont use nested loops 
             if(isUnique){        
