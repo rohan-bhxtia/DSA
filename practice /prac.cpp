@@ -5,7 +5,7 @@ int main(){
     for(int i =1 ; i<=n;i++){
         //for space 
         for(int j=n;j>=i;j--){
-            cout<<" ";
+            cout<<".";
         }
         //for numbers first half pyramid
         for(int j = 1;j<=i;j++){  
