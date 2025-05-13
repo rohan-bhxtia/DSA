@@ -8,7 +8,7 @@ int main(){
             cout<<".";
         }
         //for numbers first half pyramid
-        for(int j = 1;j<=i;j++){  
+        for(int j = 1;j<=i;j++){   
             cout<<j;
         }
         //for numbers second half pyramind
