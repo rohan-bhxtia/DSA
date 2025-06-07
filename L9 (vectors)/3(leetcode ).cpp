@@ -19,7 +19,7 @@ void unique(int nums[], int sz){
     }
 }
 int main(){
-int arr[]={11,2,3,7,7,3,2,11,1,2,3,9,9,3,2,1,8};
+int arr[]={11,2,3,7,7,3,2,11,2,2,3,9,9,3,2,1,8};
 int sz =17;
 unique(arr,sz);
 return 0;
